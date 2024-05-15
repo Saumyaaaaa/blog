@@ -9,6 +9,7 @@ import PostDetail from "./pages/PostDetail";
 import UserProfile from "./pages/UserProfile";
 import CreatePosts from "./pages/CreatePosts";
 import EditPosts from "./pages/EditPosts";
+import CategoryPosts from "./pages/CategoryPosts";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "create",
         element: <CreatePosts />,
+      },
+      {
+        path: "posts/categories/:category",
+        element: <CategoryPosts />,
       },
       {
         path: "posts/:id/edit",
