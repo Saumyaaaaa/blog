@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <ul className="footer__categories">
-        <li>
+       
           <li>
             <Link to="/posts/categories/Agriculture">Agriculture</Link>
           </li>
@@ -30,7 +30,7 @@ const Footer = () => {
           <li>
             <Link to="/posts/categories/Weather">Weather</Link>
           </li>
-        </li>
+       
       </ul>
       <div className="footer__copyright">
         <small>
