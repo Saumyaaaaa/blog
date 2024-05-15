@@ -220,4 +220,19 @@ footer{
   font-weight: 300;
 }
 
+/* Error Post  */
+
+.center{
+  text-align:center ;
+  padding-top: 5rem;
+  margin-inline: center;
+  display: block;
+  width: 100%;
+}
+
+.error-post h2 {
+  margin-top: 3rem;
+}
+
+
 
