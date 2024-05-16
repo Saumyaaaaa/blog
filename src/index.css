@@ -354,6 +354,13 @@ padding: 2rem 0;
   margin-top: 1rem;
 
 }
+/* react quill */
+
+.ql-editor{
+  overflow: scroll;
+  background: var(--color-white);
+  height: 10rem !important;
+}
 
 /* PROFILE */
 .profile__container {
@@ -445,6 +452,7 @@ input, select, textarea {
 
 /* Dashboard */
 .dashboard_container{
+  
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -475,5 +483,68 @@ input, select, textarea {
 .dashboard__post-actions{
   display: flex;
   gap: 1rem;
+}
+
+
+
+
+
+
+
+/* Contact */
+.container {
+  padding: 4rem 0;
+}
+
+.contact__form {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--radius-3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.contact__form h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form__group {
+  margin-bottom: 2rem;
+}
+
+.form__group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid var(--color-gray-300);
+  padding: 0.8rem;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: var(--radius-2);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-gray-900); 
 }
 

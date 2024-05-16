@@ -13,6 +13,7 @@ import CategoryPosts from "./pages/CategoryPosts";
 import AuthorPosts from "./pages/AuthorPosts";
 import Authors from "./pages/Authors";
 import Dashboard from "./pages/Dashboard";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
       {
         path: "posts/:id/edit",
         element: <EditPosts />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

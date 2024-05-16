@@ -20,6 +20,9 @@ const Header = () => {
           <li>
             <Link to="/authors">Authors</Link>
           </li>
+          <li>
+            <Link to="/contact">Contacts</Link>
+          </li>
         </ul>
         <button className="nav__toggle-btn">
           <AiOutlineClose />
