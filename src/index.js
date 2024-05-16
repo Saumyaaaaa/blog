@@ -31,6 +31,10 @@ const router = createBrowserRouter([
         element: <AuthorPosts />,
       },
       {
+        path: "/post/categories/:id",
+        element: <CategoryPosts />,
+      },
+      {
         path: "profile/:id",
         element: <UserProfile />,
       },
