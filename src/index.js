@@ -11,6 +11,7 @@ import CreatePosts from "./pages/CreatePosts";
 import EditPosts from "./pages/EditPosts";
 import CategoryPosts from "./pages/CategoryPosts";
 import AuthorPosts from "./pages/AuthorPosts";
+import Authors from "./pages/Authors";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/post/categories/:id",
         element: <CategoryPosts />,
+      },
+      {
+        path: "authors",
+        element: <Authors/>,
       },
       {
         path: "profile/:id",
