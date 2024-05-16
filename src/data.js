@@ -2,7 +2,7 @@
 import Thumbnail1 from "./photos/blog1.jpg";
 import Thumbnail2 from "./photos/blog2.jpg";
 import Thumbnail3 from "./photos/blog3.jpg";
-import Thumbnail4 from "./photos/blog4.jpg";
+import Thumbnail4 from "./photos/blog5.jpg";
 
 export const DUMMY_POSTS = [
     
